@@ -20,8 +20,8 @@ const buttons = [
 
 const ButtonsList = () => {
   return (
-    <div className="mx-20 max-w-5xl ">
-      <div className="flex  overflow-x-auto scrollbar-none ">
+    <div className="mx-20 max-w-5xl  cursor-pointer ">
+      <div className="flex  overflow-x-auto scrollbar-none">
         {buttons.map((btnName, index) => {
           return <Button key={index} name={btnName} />;
         })}
